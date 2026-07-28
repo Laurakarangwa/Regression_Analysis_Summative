@@ -1,8 +1,54 @@
 # Medical Insurance Charges Prediction System
 
-## Description of mission and Problem
+## Description of Mission and Problem
 
 This project aims to predict medical insurance charges using machine learning based on demographic and health-related information. It addresses the problem of estimating insurance costs accurately to support informed decision-making. Three regression models were evaluated, and the best-performing model was deployed through a FastAPI API and integrated into a Flutter mobile application.
+
+---
+
+## Dataset Description
+
+The project uses the **Medical Cost Personal Dataset (insurance.csv)**, which contains **1,338 records** and **7 variables** describing individuals and their medical insurance charges. The dataset includes demographic, lifestyle, and regional information used to train machine learning models to predict insurance costs.
+
+**Dataset Features**
+- Age
+- Sex
+- BMI
+- Number of Children
+- Smoker Status
+- Region
+- Insurance Charges (Target Variable)
+
+**Dataset Source**
+
+Kaggle – Medical Cost Personal Dataset
+
+https://www.kaggle.com/datasets/mirichoi0218/insurance
+
+---
+
+## Dataset Visualizations
+
+### Figure 1: Correlation Heatmap
+
+
+<img width="625" height="528" alt="image" src="https://github.com/user-attachments/assets/24f47784-2b36-4837-8785-58da93814ce0" />
+
+
+**Description**
+
+The correlation heatmap illustrates the relationships between numerical variables in the dataset. It shows that **age** and **BMI** have positive relationships with insurance charges, while **children** has a relatively weaker relationship. This visualization helped identify the most influential numerical features used during model training.
+
+---
+
+### Figure 2: BMI vs Insurance Charges Scatter Plot
+
+<img width="713" height="470" alt="image" src="https://github.com/user-attachments/assets/169d99e1-d224-41bc-a21b-d0402dc6e3ed" />
+
+
+**Description**
+
+The scatter plot shows the relationship between BMI and medical insurance charges. It demonstrates that insurance charges generally increase with BMI, especially for certain individuals, making BMI an important predictor in the regression models.
 
 ---
 
@@ -24,7 +70,7 @@ Use the Swagger UI to test the API by providing the required input values.
 
 **YouTube Link:**
 
-[https://YOUR_YOUTUBE_VIDEO_LINK](https://www.youtube.com/watch?v=5cEtdYxK9js)
+https://www.youtube.com/watch?v=5cEtdYxK9js
 
 ---
 
@@ -34,7 +80,7 @@ Use the Swagger UI to test the API by providing the required input values.
 
 - Flutter SDK installed
 - Android Studio or Visual Studio Code
-- Android Emulator or a physical Android device
+- Android Emulator or a physical Android device with internet access
 
 ### Steps
 
@@ -91,7 +137,7 @@ flutter run
 
 ## Repository Structure
 
-```
+```text
 Summative/
 ├── API/
 │   ├── prediction.py
@@ -111,6 +157,6 @@ Summative/
 
 ## Author
 
-**Laura KARANGWA KWIZERA**
+**Laura Karangwa Kwizera**
 
 African Leadership University
