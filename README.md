@@ -1,8 +1,8 @@
 # Medical Insurance Charges Prediction System
 
-## Description
+## Description of mission and Problem
 
-This project predicts medical insurance charges using machine learning based on user information such as age, BMI, number of children, smoking status, sex, and region. Three regression models were evaluated—Linear Regression, Decision Tree Regression, and Random Forest Regression. The Random Forest model achieved the best performance and was deployed as a FastAPI service, then integrated into a Flutter mobile application for real-time predictions.
+This project aims to predict medical insurance charges using machine learning based on demographic and health-related information. It addresses the problem of estimating insurance costs accurately to support informed decision-making. Three regression models were evaluated, and the best-performing model was deployed through a FastAPI API and integrated into a Flutter mobile application.
 
 ---
 
@@ -22,11 +22,9 @@ Use the Swagger UI to test the API by providing the required input values.
 
 ## YouTube Demo
 
-Video Demo (Maximum 7 minutes):
-
 **YouTube Link:**
 
-https://YOUR_YOUTUBE_VIDEO_LINK
+[https://YOUR_YOUTUBE_VIDEO_LINK](https://www.youtube.com/watch?v=5cEtdYxK9js)
 
 ---
 
@@ -113,7 +111,6 @@ Summative/
 
 ## Author
 
-**Laura Karangwa Kwizera**
+**Laura KARANGWA KWIZERA**
 
-Bachelor of Software Engineering  
 African Leadership University
